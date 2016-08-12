@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>Form</title>
+</head>
+<body>
+	<form name="Survey" action="success.html" method="post">
+	<fieldset>
+	<legend>Info about or vehicle</legend>
+	
+	<div>
+      <label>Type of vehicle:</label>
+      <select name="vehicls">
+        <option value="vehicle">Car</option>
+        <option value="vehicle">Truck</option>
+        <option value="vehicle">SUV</option>
+      </select>
+    </div>
+	
+    <div>
+      <label>Color of your vehicle:</label>
+      <input type="text" name="color" placeholder="color">
+    </div>
+
+    <div>
+      <label>Make of vehicle:</label>
+      <input type="text" name="make" placeholder="make">
+    </div>
+
+    <div>    
+      <label>Year of your vehicle:</label>
+      <input type="date" name="date">
+    </div>
+
+    <div>
+      <input type="checkbox" name="lease" value="lease">
+      Leased.
+    </div>
+    <div>
+      <input type="checkbox" name="own" value="own">
+      Owned.
+    </div>
+  </fieldset>
+  <button type="submit">Submit</button>
+</form>
+	</form>
+</body>
+</html>
